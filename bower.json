@@ -1,0 +1,22 @@
+{
+  "name": "jquery-onvisible",
+  "description": "jQuery onVisible plugin : add on visible event",
+  "main": "jquery.onvisible.min.js",
+  "authors": [
+    "Mikhael GERBET <contact@gerbet-mikhael.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "jquery-plugin",
+    "ecosystem:jquery"
+  ],
+  "homepage": "https://github.com/MikhaelGerbet/jquery-onvisible",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
