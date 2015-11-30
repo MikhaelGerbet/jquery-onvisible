@@ -4,7 +4,7 @@
         this.each(function(index,element){
             if($(element).data('visibleDone') === true) return;
             $( w ).scroll(function() {
-                var algo = ($(element).position().top) - $(w).scrollTop() - ($(w).height());
+                var algo = ($(element).position().top) - $(w).scrollTop() - ($(w).height()/1.5);
                 if(algo<0){
                     $(element).data('visibleDone',true).trigger('visible').unbind('visible');
                 }
