@@ -1,13 +1,6 @@
 # jquery-onvisible
 jQuery onVisible plugin : add on visible event
-
  
-
-## Demo
-
-Exemple on [jsfiddle](https://jsfiddle.net/w9gmadoL/2/)
-
-
 
 ## How to Use?
 
