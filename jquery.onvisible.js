@@ -8,7 +8,7 @@
                 if(algo<0){
                     $(element).data('visibleDone',true).trigger('visible').unbind('visible');
                 }
-            }).trigger('scroll');
+            }).delay(300).trigger('scroll');
         });
         return this;
     };
